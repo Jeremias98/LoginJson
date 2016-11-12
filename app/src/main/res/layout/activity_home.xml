@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="jeremias.com.loginjson.Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewIntegrantes"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        android:id="@+id/agregarBtn"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView" />
+</LinearLayout>
